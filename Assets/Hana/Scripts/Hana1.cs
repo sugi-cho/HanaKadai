@@ -34,5 +34,6 @@ public class Hana1 : MonoBehaviour
 		go.rigidbody.drag = 10f;
 		go.renderer.material.color = Color.Lerp (Color.yellow, Color.magenta, go.transform.position.sqrMagnitude * 0.06f);
 		Destroy (go, 5f);
+		Destroy (go.renderer.material, 5f);
 	}
 }
