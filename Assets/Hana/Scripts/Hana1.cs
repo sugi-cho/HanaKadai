@@ -9,7 +9,7 @@ public class Hana1 : MonoBehaviour
 		pos.x *= 2f;
 		pos.y *= 10f;
 		pos.z *= 2f;
-		pos.y += 5f;
+		pos.y += 8f;
 		Quaternion rot = Quaternion.Euler (Vector3.forward * Random.Range (0, 5) * 360f / 5f);
 		return rot * pos;
 		// Vector3 = Quateanion * Vector3 for rotate vec3
